@@ -1,16 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+{% load static %}
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <title>Fale Conosco</title>
+        <link rel="stylesheet" href="{% static 'css/estilo.css' %}">
+
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+<nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">I M P R O V I S O</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarText">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="produtos">Produtos <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="regulamentos">Regulamentos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contato">Contato</a>
+      </li>
+         <li class="nav-item">
+        <a class="nav-link" href="faleConosco">Fale Conosco</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+ <center>
+        <img src= "{% static 'img/logo.png'%}" width="850px" height="250px"
+    </center>
+
+          <h1> Aqui voce entrará o que precisa! </h1>
 </head>
 <body>
-Menu Principal - Home - Especificações - Fotos - Multimídia - Fale conosco
-Fale Conosco > Contato Formulário de Contato por Gustavo Guanabara Atualizado em 01/Maio/2013
-Identificação do Usuário Nome:
-Senha: E-mail:
-Sexo: - Masculino -
-Feminino Data de Nascimento:
+
+
+Identificação do Usuário
+Nome:
+Senha:
+E-mail:
+Sexo: - Masculino - Feminino
+Data de Nascimento:
 Endereço do Usuário Logradouro:
 Número:
 Estado:
@@ -21,7 +62,9 @@ Quantidade:
 Preço
 Total: R$
 [BOTÃO ENVIAR]
-Copyright 2020 - by Emely Araujo
-Facebook | Instagram
+<footer>
+<p> &copy; 2020 - by Emely Araujo em maio de 2020 </p>
+<a href="https://www.facebook.com/emely.araujo.589/"> Facebook </a>| <a href="https://www.instagram.com/emelyaraujos/?hl=pt-br"> Instagram </a>
+</footer>
 </body>
 </html>
